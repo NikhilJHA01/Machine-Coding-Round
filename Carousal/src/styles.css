@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.carousal {
+  text-align: center;
+  position: relative;
+}
+.carousal-item {
+  display: none;
+  cursor: pointer;
+}
+.carousal-item > img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.carousal > button {
+  cursor: pointer;
+  position: absolute;
+  background-color: rgb(189, 188, 184);
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+  border: none;
+  color: white;
+}
+
+button.prev {
+  top: 50%;
+  left: 0;
+}
+button.next {
+  top: 50%;
+  right: 0;
+}
+
+.active {
+  display: block;
+}

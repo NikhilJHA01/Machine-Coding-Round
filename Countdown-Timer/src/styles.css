@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.countdown-timer {
+  font-size: 2rem;
+  color: burlywood;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: burlywood;
+  color: white;
+  font-size: 16px;
+}
+button:hover {
+  cursor: pointer;
+}
