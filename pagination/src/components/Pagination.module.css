@@ -1,0 +1,22 @@
+.pagination {
+  max-width: 700px;
+  display: flex;
+}
+.pagination > select {
+  padding: 5px;
+  margin-right: 5px;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper > button {
+  background-color: #fff;
+  margin: 1px;
+  cursor: pointer;
+  border: 1px solid grey;
+}
+.wrapper > button.active {
+  background: rgba(0, 67, 94, 0.4);
+}

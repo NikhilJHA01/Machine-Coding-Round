@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+table {
+  border: 1px solid black;
+}
+tbody {
+  position: relative;
+  display: block;
+  max-height: 200px;
+  overflow-y: scroll;
+  background-color: blanchedalmond;
+}
+tr {
+  display: block;
+}
+td,
+th {
+  padding: 10px;
+}

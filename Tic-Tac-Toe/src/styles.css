@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-right: 0px;
+  border-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+.board .row {
+  flex: 33.3%;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.board .row .column {
+  border-right: 1px solid black;
+  cursor: pointer;
+  flex: 33.3%;
+}
