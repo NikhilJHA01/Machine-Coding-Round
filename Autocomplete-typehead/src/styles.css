@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.autocomplete {
+  width: 500px;
+}
+.autocomplete > input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.autocomplete > ul {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid lightgray;
+}
+.autocomplete > ul > li {
+  padding: 8px;
+  width: 100%;
+  cursor: pointer;
+  text-align: left;
+}
