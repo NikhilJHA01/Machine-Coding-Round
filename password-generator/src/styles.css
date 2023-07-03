@@ -1,0 +1,38 @@
+.App {
+  width: 500px;
+  height: 400px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.checkbox-group {
+  margin: 20px 0px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.password-strength {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+.errorMessage {
+  margin: 20px 0px;
+}
